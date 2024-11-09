@@ -1,0 +1,71 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO128-seg dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/segment/coco/
+# Example usage: yolo train data=coco128.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco128-seg  ← downloads here (7 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+train: D:\code\miccai\2d\yolo_data\images\train # train images (relative to 'path') 128 images
+val: D:\code\miccai\2d\yolo_data\images\train # val images (relative to 'path') 128 images
+
+
+# Classes
+names:
+  0: '41__'
+  1: '85__'
+  2: '83__'
+  3: '18__'
+  4: '51__'
+  5: '23__'
+  6: '48__'
+  7: '34__'
+  8: '43__'
+  9: '82__'
+  10: '72__'
+  11: '33__'
+  12: '84__'
+  13: '61__'
+  14: '44__'
+  15: '62__'
+  16: '64__'
+  17: '54__'
+  18: '55__'
+  19: '11__'
+  20: '24__'
+  21: '45__'
+  22: '35__'
+  23: '65__'
+  24: '21__'
+  25: '22__'
+  26: '75__'
+  27: '27__'
+  28: '13__'
+  29: '73__'
+  30: '63__'
+  31: '32__'
+  32: '25__'
+  33: '38__'
+  34: '37__'
+  35: '71__'
+  36: '26__'
+  37: '28__'
+  38: '15__'
+  39: '42__'
+  40: '14__'
+  41: '47__'
+  42: '53__'
+  43: '46__'
+  44: '36__'
+  45: '52__'
+  46: '12__'
+  47: '74__'
+  48: '31__'
+  49: '16__'
+  50: '17__'
+  51: '81__'
+# Download script/URL (optional)
+#download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128-seg.zip
